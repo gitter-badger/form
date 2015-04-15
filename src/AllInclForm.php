@@ -2,7 +2,8 @@
 
 namespace Swobble\Form;
 
-use Swobble\Utils\FormWrapper;
+use Swobble\Form\FormWrapper;
 
 class AllInclForm extends FormWrapper {
+    
 }
