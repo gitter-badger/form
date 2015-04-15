@@ -1,0 +1,27 @@
+{
+    "name": "swobble/form",
+    "description": "Swobble Form Component",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Schröder",
+            "email": "info@vectoholic.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Tobias Braune",
+            "email": "tbraune89@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Swobble\\Form\\": "src"
+        }
+    },
+    "require": {
+        "swobble/core": "stable"
+    },
+    "minimum-stability": "stable"
+}
