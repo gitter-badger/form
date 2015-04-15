@@ -4,6 +4,7 @@ namespace Swobble\Form;
 
 use Swobble\Form\Collection\ArrayCollection;
 use Swobble\Form\FormField;
+use Swobble\Form\Util\ProcessInput;
 
 class FormInstance extends ArrayCollection {    
     //private $sanitizeFilter = array();

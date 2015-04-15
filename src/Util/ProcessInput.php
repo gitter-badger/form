@@ -13,12 +13,16 @@ class ProcessInput {
         return true;
     }
     
+    public function getSanitizedInput() {
+        
+    }
+    
     private function sanitize() {
         //we should use symfony/request...
         //http://symfony.com/doc/current/components/http_foundation/introduction.html#installation
         
         $request = Request::createFromGlobals();
-        
+        /*
         if (isset($_POST['Submit'])) {
             foreach ($this->formElements as $key => $value) {
                 if (isset($_POST[$key])) {
@@ -31,5 +35,6 @@ class ProcessInput {
         }
         
         throw new FormException('Keine Daten vorhanden');
+        */
     }
 }
