@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "swobble/core": "stable"
+        "swobble/core": "~0.1.x"
     },
     "minimum-stability": "stable"
 }
